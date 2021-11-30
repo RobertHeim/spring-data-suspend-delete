@@ -1,0 +1,11 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost/db
+    username: db
+    password: db
+  flyway:
+    url: jdbc:postgresql://localhost:5432/db
+    user: db
+    password: db
+    locations: classpath:db/migration
+    clean-on-validation-error: true
