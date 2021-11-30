@@ -5,7 +5,7 @@ see issue https://github.com/spring-projects/spring-data-commons/issues/2503
 ```
 docker-compose up
 ```
-Then go these to browser URIs in the following order:
+Then go to these browser URIs in the following order:
 ```
 GET localhost:8080 // => []
 GET localhost:8080/x/add // => [{"id":1,"name":"x"}]
