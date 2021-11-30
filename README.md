@@ -12,7 +12,7 @@ See [DemoApplication.kt](src/main/kotlin/com/example/demo/DemoApplication.kt) fo
 Then go to these browser URIs in the following order:
 ```
 GET localhost:8080          // => []
-GET localhost:8080/x/add    // => [{"id":1,"name":"x"}]
+GET localhost:8080/x/add    // => {"id":1,"name":"x"}
 GET localhost:8080          // => [{"id":1,"name":"x"}]
 GET localhost:8080/x/delete // => "ok"
 GET localhost:8080          // => [{"id":1,"name":"x"}]
