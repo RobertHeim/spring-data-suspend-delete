@@ -20,7 +20,7 @@ GET localhost:8080          // => [{"id":1,"name":"x"}]
 
 Note that the delete is not executed.
 
-Then add `suspend` to the delete method in the repository, restart the backend and do:
+Then add `suspend` to the delete method in the repository, restart the application and do:
 ```
 GET localhost:8080/x/delete // => "ok"
 GET localhost:8080          // => []
